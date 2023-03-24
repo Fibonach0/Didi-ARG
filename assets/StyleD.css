@@ -1,0 +1,89 @@
+@keyframes rotation {
+    0% {
+        transform: rotate3d(0, 1, 0, 0deg);
+    }
+    50% {
+        transform: rotate3d(0, 1, 0, 180deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+}
+
+@font-face {
+    font-family: 'DKLemonYellowSun';
+    src: url('DKLemonYellowSun.otf') format('opentype'), url('DKLemonYellowSun.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    animation: bgcolor infinite 5s;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    perspective: 1000;
+    margin: 1em auto;
+}
+
+.coin {
+    position: relative;
+    text-align: center;
+    line-height: 50px;
+    animation-name: rotation;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+img {
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+}
+
+.face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    backface-visibility: hidden;
+}
+
+.heads {
+    position: absolute;
+    background-color: none;
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+
+.tails {
+    position: absolute;
+    background-color: none;
+    z-index: 2;
+    transform: rotateY(180deg);
+}
+
+
+
+.texto {
+    text-align: center;
+    color: #000000;
+    position: relative;
+    top: 240px;
+    font-family: DKLemonYellowSun, Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5pt;
+}
+
+/*182iA*/

@@ -1,0 +1,128 @@
+ 
+    
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .image-container {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .links-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .link {
+        min-width: 50% !important;
+    }
+    
+    img {
+        border-radius: 50%;
+        width: auto;
+        height: auto;
+    }
+    
+    .texto {
+        text-align: center;
+        color: #000000;
+        position: relative;
+        top: 280px;
+        font-family: DKLemonYellowSun, Arial, Helvetica, sans-serif;
+        letter-spacing: 1.5pt;
+    }
+    
+    .coin {
+        position: relative;
+        top: 30px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        margin: 0 auto;
+        box-sizing: content-box;
+    }
+    
+    .face {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        backface-visibility: hidden;
+    }
+    
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1140px;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .container {
+            max-width: 960px;
+        }
+    }
+    
+    @media (min-width: 768px) {
+        .container {
+            max-width: 720px;
+        }
+        .link {
+            width: 100%;
+        }
+    }
+    
+    @media (min-width: 270px) {
+        .container {
+            max-width: 250px;
+        }
+    }
+    
+    @media ( max-width:768px) {
+        img {
+            border-radius: 50%;
+            width: 125px;
+            height: 125px;
+        }
+        .texto {
+            text-align: center;
+            color: #000000;
+            position: relative;
+            top: 230px;
+            font-family: Courier, Arial, Helvetica, sans-serif;
+            letter-spacing: 1pt;
+        }
+        section.linktree {
+            top: 200px;
+            position: relative;
+            text-align: center;
+            padding: 20px 0 00px;
+            /* background-color: var(--color-secundario); */
+        }
+    }
+    
+    .w3-purple,
+    .w3-hover-purple:hover {
+        color: #fff!important;
+        background-color: rgba(156, 39, 176, 0.6) !important;
+    }
+    
+    .DidiLogo2 {
+        width: 100px;
+        margin-left: 44%;
+    }
+    
+    @font-face {
+        font-family: 'DKLemonYellowSun';
+        src: url('DKLemonYellowSun.otf') format('opentype'), url('DKLemonYellowSun.otf') format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }

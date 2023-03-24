@@ -1,0 +1,320 @@
+    /* Generales */
+    
+     :root {
+        /*BEIGE
+Icónos + fecha/hora + “Gracias” final*/
+        --color-primario: #dbd2e8;
+        /*ROSA
+“Nos Casamos” + Franjas*/
+        --color-secundario: #947aba;
+        /*BEIGE
+Fondo*/
+        --color-fondo: #dbd2e8;
+        /*GRIS
+“Mica y Fer” + Textos*/
+        --color-gris: #666666;
+    }
+    
+    body {
+        background-image: url("FONDO.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    p {
+        font-family: 'Dosis', 'Lora', serif;
+        color: var(--color-gris);
+        font-weight: 300;
+        font-size: 26px;
+    }
+    
+    h4 {
+        font-family: 'Dosis', 'Lora', serif;
+        color: var(--color-gris);
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    
+    .btn {
+        font-family: 'Dosis', 'Lora', 'Dosis', 'Lora', serif;
+        font-size: 20px;
+        color: white;
+        background-color: var(--color-secundario);
+        border-radius: 30px;
+        padding: 10px 35px;
+        margin-bottom: 10px;
+        border: 1px solid var(--color-primario);
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    /*Boton agendar*/
+    
+    .btn1 {
+        padding: 10px 40px;
+    }
+    
+    .btn2 {
+        padding: 10px 55px;
+    }
+    
+    .btn:hover {
+        color: var(--color-gris);
+        background-color: var(--color-primario);
+        border: 1px solid white;
+    }
+    
+    .btn-alt {
+        font-family: 'Dosis', 'Lora', 'Dosis', 'Lora', serif;
+        color: white;
+        background-color: var(--color-secundario);
+    }
+    
+    .btn-alt:hover {
+        color: var(--color-gris);
+        background-color: var(--color-primario);
+        border: 1px solid var(--color-gris);
+        ;
+    }
+    
+    .btn:focus {
+        box-shadow: none;
+    }
+    /*Confirmar asistencia*/
+    
+    .btn-ca {
+        font-family: 'Dosis', 'Lora', 'Dosis', 'Lora', serif;
+        font-size: 20px;
+        color: white;
+        background-color: var(--color-secundario);
+        border-radius: 30px;
+        padding: 10px 35px;
+        border: 1px solid var(--color-primario);
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    .btn-ca:hover {
+        color: white;
+        background-color: var(--color-primario);
+        border: 1px solid white;
+    }
+    
+    .fancybox-bg {
+        background-color: var(--color-primario) !important;
+    }
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    /* linktree */
+    
+    section.linktree {
+        top: 270px;
+        position: relative;
+        text-align: center;
+        padding: 20px 0 00px;
+        /* background-color: var(--color-secundario); */
+    }
+    
+    section.linktree img.icon {
+        width: 150px;
+    }
+    
+    section.linktree p {
+        color: var(--color-gris);
+    }
+    
+    section.linktree h4 {
+        text-align: center;
+        margin-bottom: 00px;
+        color: var(--color-primario);
+        font-weight: 500;
+    }
+    
+    section.linktree h5 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: var(--color-primario);
+        font-weight: 500;
+    }
+    /* Medias queries */
+    
+    @media (max-width: 760px) {
+        /* body {
+            font-family: 'Dosis', 'Lora', serif;
+            color: var(--color-gris);
+            font-size: 18px;
+            background-color: var(--color-fondo);
+        } */
+        p {
+            font-family: 'Dosis', 'Lora', serif;
+            color: var(--color-gris);
+            font-weight: 100;
+            font-size: 21px;
+        }
+        h4 {
+            font-family: 'Dosis', 'Lora', serif;
+            color: var(--color-gris);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .btn {
+            font-family: 'Dosis', 'Lora', 'Dosis', 'Lora', serif;
+            font-size: 20px;
+            color: white;
+            background-color: var(--color-secundario);
+            border-radius: 30px;
+            padding: 10px 35px;
+            margin-bottom: 10px;
+            border: 1px solid var(--color-primario);
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        /*Boton agendar*/
+        .btn1 {
+            padding: 10px 40px;
+        }
+        .btn2 {
+            padding: 10px 55px;
+        }
+        /**/
+        .btn:hover {
+            color: white;
+            background-color: var(--color-primario);
+            border: 1px solid white;
+        }
+        .btn-alt {
+            font-family: 'Dosis', 'Lora', 'Dosis', 'Lora', serif;
+            color: white;
+            background-color: var(--color-secundario);
+            border-radius: 30px;
+            padding: 10px 40px;
+        }
+        .btn-alt:hover {
+            color: white;
+            background-color: var(--color-primario);
+            border: 1px solid white;
+            ;
+        }
+        .btn:focus {
+            box-shadow: none;
+        }
+        /*Confirmar asistencia*/
+        .btn-ca {
+            font-family: 'Dosis', 'Lora', 'Dosis', 'Lora', serif;
+            font-size: 20px;
+            color: white;
+            background-color: var(--color-secundario);
+            border-radius: 30px;
+            padding: 10px 35px;
+            border: 1px solid var(--color-primario);
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        .btn-ca:hover {
+            color: white;
+            background-color: var(--color-primario);
+            border: 1px solid white;
+        }
+        section.linktree {
+            top: 230px;
+            position: relative;
+            text-align: center;
+            padding: 20px 0 00px;
+            /* background-color: var(--color-secundario); */
+        }
+    }
+    
+    @media (max-width: 450px) {
+        body {
+            font-family: 'Dosis', 'Lora', serif;
+            color: var(--color-gris);
+            font-size: 18px;
+            background-color: var(--color-fondo);
+        }
+        p {
+            font-family: 'Dosis', 'Lora', serif;
+            color: var(--color-gris);
+            font-weight: 100;
+            font-size: 20px;
+        }
+        h4 {
+            font-family: 'Dosis', 'Lora', serif;
+            color: var(--color-gris);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .btn {
+            font-family: 'Dosis', 'Lora', 'Dosis', 'Lora', serif;
+            font-size: 20px;
+            color: white;
+            background-color: var(--color-secundario);
+            border-radius: 30px;
+            padding: 10px 36px;
+            margin-bottom: 10px;
+            border: 1px solid var(--color-primario);
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        /*Boton agendar*/
+        .btn1 {
+            padding: 10px 40px;
+        }
+        .btn2 {
+            padding: 10px 55px;
+            text-decoration: none;
+        }
+        /**/
+        .btn:hover {
+            color: white;
+            background-color: var(--color-primario);
+            border: 1px solid white;
+        }
+        .btn-alt {
+            font-family: 'Dosis', 'Lora', 'Dosis', 'Lora', serif;
+            color: white;
+            background-color: var(--color-secundario);
+            border-radius: 30px;
+            padding: 10px 40px;
+            text-decoration: none;
+        }
+        .btn-alt:hover {
+            color: white;
+            background-color: var(--color-primario);
+            border: 1px solid white;
+            ;
+        }
+        .btn:focus {
+            box-shadow: none;
+        }
+        /*Confirmar asistencia*/
+        .btn-ca {
+            font-family: 'Dosis', 'Lora', 'Dosis', 'Lora', serif;
+            font-size: 20px;
+            color: white;
+            background-color: var(--color-secundario);
+            border-radius: 30px;
+            padding: 10px 35px;
+            border: 1px solid var(--color-primario);
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        .btn-ca:hover {
+            color: white;
+            background-color: var(--color-primario);
+            border: 1px solid white;
+        }
+    }
