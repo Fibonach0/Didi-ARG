@@ -1,0 +1,38 @@
+/* section.cuenta-regresiva body,
+html {
+    width: 100%;
+    height: 100%; */
+
+
+/* margin: 0; 
+
+}
+*/
+
+html {}
+
+section.cuenta-regresiva canvas {
+    /* width: 900px;
+    height: 200px; */
+    /* display: block; */
+    /* position: relative; */
+    background: transparent;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+section.cuenta-regresiva body {
+    /* background: #000000;
+    background-image: url("https://i.imgur.com/wJ7RHVX.jpg"); */
+    background-position: top center;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
