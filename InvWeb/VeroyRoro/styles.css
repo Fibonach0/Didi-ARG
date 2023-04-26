@@ -701,7 +701,7 @@ section.footer {
 section.footer p {
     text-align: center;
     color: var(--color-fondo);
-    font-family: "DK Lemon Yellow Sun" !important;
+    font-family: "montserratlight" !important;
     font-weight: 300;
     margin: 0;
     padding: 0;
