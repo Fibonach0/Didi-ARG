@@ -33,7 +33,7 @@ h4 {
     font-family: 'montserratlight', sans-serif;
     color: var(--color-gris);
     letter-spacing: 3px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 25px;
     font-weight: 400;
     text-align: center;
@@ -365,7 +365,7 @@ section.fiestasola h4 {
 }
 
 section.fiestasola p {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
 section.fiestasola img.icon {
@@ -423,6 +423,9 @@ section.cbu p {
     text-decoration: underline;
 }
 
+section.cbu h4{
+    text-transform: uppercase;
+}
 
 /* ---------- */
 
@@ -534,7 +537,7 @@ section.dresscode2 h4 {
 
 section.dresscode2 p {
     color: var(--color-gris);
-    font-size: 36px;
+    font-size: 20px;
     font-family: 'montserratthin', 'Montserrat', sans-serif;
 }
 
@@ -557,6 +560,7 @@ section.canciones h4 {
     font-family: 'montserratlight', 'Montserrat', sans-serif;
     color: var(--color-primario);
     margin-bottom: 25px;
+    text-transform: uppercase;
 }
 
 section.canciones p {
@@ -601,12 +605,14 @@ section.combi img.icon {
 section.comida {
     text-align: center;
     padding: 40px 0 40px;
+    font-family: 'montserratlight', 'Montserrat', sans-serif;
     /*El padding tiene 30 menos por el boton*/
 }
 
 section.comida h4 {
     text-align: center;
     margin-bottom: 25px;
+    text-transform: uppercase;
 }
 
 section.comida p {
@@ -633,6 +639,7 @@ section.insta h4 {
     text-align: center;
     margin-bottom: 25px;
     color: var(--color-primario);
+    text-transform: lowercase;
 }
 
 section.insta p {
@@ -802,7 +809,7 @@ section.contacto ul li i {
         font-family: 'montserratlight', sans-serif;
         color: var(--color-gris);
         letter-spacing: 2px;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         font-size: 20px;
         font-weight: 400;
     }
@@ -906,7 +913,7 @@ section.contacto ul li i {
         font-family: 'montserratlight', sans-serif;
         color: var(--color-gris);
         letter-spacing: 2px;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         font-size: 20px;
         font-weight: 400;
     }
