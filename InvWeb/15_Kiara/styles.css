@@ -494,6 +494,7 @@ section.confirmar-asistencia .btn-alt {
 
 section.galeria {
     padding-bottom: 50px;
+    padding-top: 10px;
 }
 
 section.galeria h4 {
@@ -532,7 +533,7 @@ section.dresscode {
 
 section.dresscode h4 {
     font-family: 'montserratlight', 'montserratthin', sans-serif;
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
     /* margin-bottom: 5px; */
     color: var(--color-gris);
@@ -559,7 +560,7 @@ section.dresscode .btn3 {
 
 section.canciones {
     text-align: center;
-    padding: 10px 0 70px;
+    padding: 10px 0 20px;
     /*El padding tiene 30 menos por el boton*/
 }
 
@@ -572,7 +573,7 @@ section.canciones h4 {
 
 section.canciones p {
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'montserratthin', 'montserratlight', sans-serif;
 }
 
@@ -655,7 +656,7 @@ section.insta h4 {
 
 section.insta p {
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'montserratthin', 'montserratlight', sans-serif;
 }
 
