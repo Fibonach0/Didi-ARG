@@ -3,44 +3,44 @@
 :root {
     /*BEIGE
 Icónos + fecha/hora + “Gracias” final*/
-    --color-primario: #000000;
+    --color-primario: #B595D1;
     /*ROSA
 “Nos Casamos” + Franjas*/
-    --color-secundario: #000000;
+    --color-secundario: #B595D1;
     /*BEIGE
 Fondo*/
-    --color-fondo: #ffffff;
+    --color-fondo: #B2B2B2;
     /*GRIS
 “Mica y Fer” + Textos*/
-    --color-gris: #606060;
+    --color-gris: #666666;
 }
 
 body {
-    font-family: "montserratthin", 'Montserrat', sans-serif;
+    font-family: "EBGaramond", 'Montserrat', sans-serif;
     color: var(--color-gris);
-    font-size: 20px;
+    font-size: 26px;
     background-color: var(--color-fondo);
 }
 
 p {
-    font-family: "montserratthin", 'Montserrat', sans-serif;
+    font-family: "EBGaramond", 'Montserrat', sans-serif;
     color: var(--color-gris);
     font-weight: 300;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 h4 {
-    font-family: 'montserratlight', sans-serif;
+    font-family: 'EBGaramond', sans-serif;
     color: var(--color-gris);
     letter-spacing: 3px;
-    /* text-transform: uppercase; */
-    font-size: 21px;
+    text-transform: uppercase;
+    font-size: 25px;
     font-weight: 400;
     text-align: center;
 }
 
 .btn {
-    font-family: 'montserratlight', 'Montserrat', sans-serif;
+    font-family: 'EBGaramond', 'Montserrat', sans-serif;
     font-size: 20px;
     color: white;
     background-color: var(--color-secundario);
@@ -65,7 +65,7 @@ h4 {
 }
 
 .btn-alt {
-    font-family: 'montserratthin', 'Montserrat', sans-serif;
+    font-family: 'EBGaramond', 'Montserrat', sans-serif;
     color: white;
     background-color: var(--color-secundario);
 }
@@ -85,7 +85,7 @@ h4 {
 /*Confirmar asistencia*/
 
 .btn-ca {
-    font-family: 'montserratthin', 'Montserrat', sans-serif;
+    font-family: 'EBGaramond', 'Montserrat', sans-serif;
     color: var(--color-secundario);
     font-size: 20px;
     text-align: center;
@@ -209,7 +209,7 @@ a:hover {
 
 .scroll-down {
     position: absolute;
-    bottom: 30px;
+    bottom: 70px;
     display: block;
     text-align: center;
     font-size: 20px;
@@ -218,8 +218,8 @@ a:hover {
     text-shadow: 0;
     width: 30px;
     height: 30px;
-    border-bottom: 4px solid #ffffff;
-    border-right: 4px solid #ffffff;
+    border-bottom: 4px solid #000;
+    border-right: 4px solid #000;
     z-index: 9;
     left: calc(50% - 15px);
     -webkit-transform: translate(-50%, 0%) rotate(45deg);
@@ -283,7 +283,7 @@ a:hover {
 
 section.portada2 {
     height: 100vh;
-    background-image: url("../public/img/VeroyRoro/IMGPARAPC.png");
+    background-image: url("../public/img//Jaz/IMGPARAPC.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -297,12 +297,12 @@ section.portada2 {
 section.cuenta-regresiva {
     text-align: center;
     padding-top: 25px;
-    background-color: #A8A8A8;
+    background-color: var(--color-secundario);
     height: 130px;
 }
 
 section.cuenta-regresiva p {
-    font-family: 'montserratthin', 'Montserrat', sans-serif;
+    font-family: 'EBGaramond', 'Montserrat', sans-serif;
     color: white;
     text-align: center;
     font-size: 48px;
@@ -353,30 +353,32 @@ section.ceremonia-fiesta .columna img.anillos {
 
 /* Fiesta Sola */
 
-section.fiestasola {
+section.FiestaSola {
     text-align: center;
-    padding: 40px 0 70px;
+    padding: 40px 0 35px;
+    /* background-color: var(--color-secundario); */
 }
 
-section.fiestasola h4 {
+section.FiestaSola h4 {
+    font-family: 'EBGaramond', 'Montserrat', sans-serif;
+    font-size: 25px;
     text-align: center;
-    margin-bottom: 25px;
-    color: var(--color-primario);
+    /* margin-bottom: 5px; */
+    color: white;
 }
 
-section.fiestasola p {
-    margin-bottom: 14px;
+section.FiestaSola p {
+    color: var(--color-gris);
+    padding: -40px 0px;
+    font-size: 36px;
 }
 
-section.fiestasola img.icon {
+section.FiestaSola img.icon {
     width: 150px;
-    padding-left: 80%;
 }
-section.fiestasola h3 {
-    padding: 40px 0 70px;
+section.FiestaSola .btn3 {
+    padding: 10px 60px;
 }
-
-
 /* ---------- */
 
 
@@ -384,8 +386,16 @@ section.fiestasola h3 {
 
 section.cbu {
     text-align: center;
-    padding: 40px 0 10px;
+    padding: 10px 0 40px;
     /* background-color: var(--color-secundario); */
+}
+
+section.cbu h4 {
+    font-family: 'EBGaramond', 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    /* margin-bottom: 5px; */
+    color: white;
 }
 
 section.cbu img.icon {
@@ -402,7 +412,7 @@ section.cbu p {
 }
 
 #hidden-cbu span.title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'EBGaramond', sans-serif;
     display: inline-block;
     text-align: center;
     width: 100%;
@@ -423,10 +433,6 @@ section.cbu p {
     text-decoration: underline;
 }
 
-section.cbu h4{
-    text-transform: uppercase;
-    margin-bottom: 25px;
-}
 
 /* ---------- */
 
@@ -435,15 +441,18 @@ section.cbu h4{
 
 section.confirmar-asistencia {
     text-align: center;
-    padding: 40px 0 70px;
+    text-transform: none;
+    padding: 10px 0 50px;
     background-color: var(--color-secundario);
 }
 
 section.confirmar-asistencia h4 {
     text-align: center;
-    font-family: 'montserratthin', 'Montserrat', sans-serif;
-    color: var(--color-gris);
+    font-family: 'EBGaramond', 'Montserrat', sans-serif;
+    color: white;
     margin-bottom: 25px;
+    padding: 10px ;
+    text-transform: none;
 }
 
 section.confirmar-asistencia p {
@@ -466,7 +475,7 @@ section.galeria {
 
 section.galeria h4 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
 }
 
 section.galeria .item-galeria {
@@ -489,17 +498,17 @@ section.galeria .item-galeria a:hover img {
 /* ---------- */
 
 
-/* DRESS CODE 4 real */
+/* DRESS CODE */
 
 section.dresscode {
     text-align: center;
-    padding: 40px 0 5px;
+    padding: 10px 0 5px;
     background-color: var(--color-secundario);
 }
 
 section.dresscode h4 {
-    font-family: 'montserratlight', 'Montserrat', sans-serif;
-    font-size: 21px;
+    font-family: 'EBGaramond', 'Montserrat', sans-serif;
+    font-size: 25px;
     text-align: center;
     /* margin-bottom: 5px; */
     color: white;
@@ -507,8 +516,7 @@ section.dresscode h4 {
 
 section.dresscode p {
     color: white;
-    font-size: 20px;
-    font-family: 'montserratthin', 'Montserrat', sans-serif;
+    font-size: 36px;
 }
 
 section.dresscode img.icon {
@@ -521,47 +529,20 @@ section.dresscode .btn3 {
 
 /* ---------- */
 
-/*Not Dresscode but Dresscode*/
-section.dresscode2 {
-    text-align: center;
-    padding: 40px 0 40px;
-    /* background-color: var(--color-secundario); */
-}
-
-section.dresscode2 h4 {
-    font-family: 'montserratlight', 'Montserrat', sans-serif;
-    font-size: 21px;
-    text-align: center;
-    /* margin-bottom: 5px; */
-    color: var(--color-secundario);
-}
-
-section.dresscode2 p {
-    color: var(--color-gris);
-    font-size: 20px;
-    font-family: 'montserratthin', 'Montserrat', sans-serif;
-}
-
-section.dresscode2 img.icon {
-    width: 150px;
-}
-section.dresscode2 .btn3 {
-    padding: 10px 50px;
-}
 /* CANCIONES */
 
 section.canciones {
     text-align: center;
-    padding: 40px 0 10px;
+    padding: 10px 0 30px;
     /*El padding tiene 30 menos por el boton*/
 }
 
 section.canciones h4 {
     text-align: center;
-    font-family: 'montserratlight', 'Montserrat', sans-serif;
-    color: var(--color-primario);
-    margin-bottom: 20px;
-    text-transform: uppercase;
+    font-family: 'EBGaramond', 'Montserrat', sans-serif;
+    color: white;
+    margin-bottom: 25px;
+    font-size: 30px;
 }
 
 section.canciones p {
@@ -605,15 +586,13 @@ section.combi img.icon {
 
 section.comida {
     text-align: center;
-    padding: 40px 0 60px;
-    font-family: 'montserratlight', 'Montserrat', sans-serif;
+    padding: 40px 0 40px;
     /*El padding tiene 30 menos por el boton*/
 }
 
 section.comida h4 {
     text-align: center;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+    margin-bottom: 25px;
 }
 
 section.comida p {
@@ -632,15 +611,15 @@ section.comida img.icon {
 
 section.insta {
     text-align: center;
-    padding: 40px 0 10px;
+    padding: 10px 0 50px;
     /*El padding tiene 30 menos por el boton*/
 }
 
 section.insta h4 {
     text-align: center;
     margin-bottom: 25px;
-    color: var(--color-primario);
-    text-transform: lowercase;
+    color: white;
+    font-size: 25px;
 }
 
 section.insta p {
@@ -664,7 +643,7 @@ section.gracias {
 }
 
 section.gracias p {
-    font-family: "Great Vibes" !important;
+    font-family: "EBGaramond" !important;
     color: var(--color-secundario);
 }
 
@@ -702,7 +681,7 @@ section.footer {
 section.footer p {
     text-align: center;
     color: var(--color-fondo);
-    font-family: "montserratlight" !important;
+    font-family: "Dosis" !important;
     font-weight: 300;
     margin: 0;
     padding: 0;
@@ -795,27 +774,27 @@ section.contacto ul li i {
         margin-top: 10px;
     }
     body {
-        font-family: "montserratthin", 'Montserrat', sans-serif;
+        font-family: "EBGaramond", 'Montserrat', sans-serif;
         color: var(--color-gris);
         font-size: 18px;
         background-color: var(--color-fondo);
     }
     p {
-        font-family: "montserratthin", 'Montserrat', sans-serif;
+        font-family: "EBGaramond", 'Montserrat', sans-serif;
         color: var(--color-gris);
         font-weight: 100;
-        font-size: 20px;
+        font-size: 21px;
     }
     h4 {
-        font-family: 'montserratlight', sans-serif;
+        font-family: 'EBGaramond', sans-serif;
         color: var(--color-gris);
         letter-spacing: 2px;
-        /* text-transform: uppercase; */
-        font-size: 21px;
+        text-transform: uppercase;
+        font-size: 25px;
         font-weight: 400;
     }
     .btn {
-        font-family: 'montserratlight', 'Montserrat', sans-serif;
+        font-family: 'EBGaramond', 'Montserrat', sans-serif;
         color: white;
         background-color: var(--color-secundario);
         border-radius: 30px;
@@ -835,7 +814,7 @@ section.contacto ul li i {
         border: 1px solid var(--color-gris);
     }
     .btn-alt {
-        font-family: 'montserratthin', 'Montserrat', sans-serif;
+        font-family: 'EBGaramond', 'Montserrat', sans-serif;
         color: white;
         background-color: var(--color-secundario);
         border-radius: 30px;
@@ -852,7 +831,7 @@ section.contacto ul li i {
     }
     /*Confirmar asistencia*/
     .btn-ca {
-        font-family: 'montserratthin', 'Montserrat', sans-serif;
+        font-family: 'EBGaramond', 'Montserrat', sans-serif;
         color: var(--color-secundario);
         text-align: center;
         font-size: 20px;
@@ -869,7 +848,7 @@ section.contacto ul li i {
     }
     /*Cuenta Regresiva*/
     section.cuenta-regresiva p {
-        font-family: 'montserratthin', 'Montserrat', sans-serif;
+        font-family: 'EBGaramond', 'Montserrat', sans-serif;
         color: white;
         text-align: center;
         font-size: 30px;
@@ -877,20 +856,23 @@ section.contacto ul li i {
     }
     section.cuenta-regresiva {
         text-align: center;
-        font-family: 'montserratthin', 'Montserrat', sans-serif;
+        font-family: 'EBGaramond', 'Montserrat', sans-serif;
         padding-top: 25px;
-        background-color: #A8A8A8;
+        background-color: var(--color-secundario);
         height: 100px;
     }
     /* DressCode*/
     section.dresscode p {
         color: white;
-        font-size: 20px;
-        font-family: 'montserratthin', 'Montserrat', sans-serif;
+        font-size: 21px;
+    }
+    section.FiestaSola p {
+        color: var(--color-gris);
+        font-size: 21px;
     }
     section.portada2 {
         height: 100vh;
-        background-image: url("../public/img/VeroyRoro/IMGPARAANDROID.png");
+        background-image: url("../public/img//Jaz/IMGPARAANDROID.png");
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
         background-size: cover;
@@ -899,27 +881,27 @@ section.contacto ul li i {
 
 @media (max-width: 450px) {
     body {
-        font-family: "montserratthin", 'Montserrat', sans-serif;
+        font-family: "EBGaramond", 'Montserrat', sans-serif;
         color: var(--color-gris);
         font-size: 18px;
         background-color: var(--color-fondo);
     }
     p {
-        font-family: "montserratthin", 'Montserrat', sans-serif;
+        font-family: "EBGaramond", 'Montserrat', sans-serif;
         color: var(--color-gris);
         font-weight: 100;
         font-size: 20px;
     }
     h4 {
-        font-family: 'montserratlight', sans-serif;
+        font-family: 'EBGaramond', sans-serif;
         color: var(--color-gris);
         letter-spacing: 2px;
-        /* text-transform: uppercase; */
-        font-size: 21px;
+        text-transform: uppercase;
+        font-size: 25px;
         font-weight: 400;
     }
     .btn {
-        font-family: 'montserratlight', 'Montserrat', sans-serif;
+        font-family: 'EBGaramond', 'Montserrat', sans-serif;
         color: white;
         background-color: var(--color-secundario);
         border-radius: 30px;
@@ -939,7 +921,7 @@ section.contacto ul li i {
         border: 1px solid var(--color-gris);
     }
     .btn-alt {
-        font-family: 'montserratthin', 'Montserrat', sans-serif;
+        font-family: 'EBGaramond', 'Montserrat', sans-serif;
         color: white;
         background-color: var(--color-secundario);
         border-radius: 30px;
@@ -957,7 +939,7 @@ section.contacto ul li i {
     }
     /*Confirmar asistencia*/
     .btn-ca {
-        font-family: 'montserratthin', 'Montserrat', sans-serif;
+        font-family: 'EBGaramond', 'Montserrat', sans-serif;
         color: var(--color-secundario);
         font-size: 20px;
         text-align: center;
@@ -973,7 +955,7 @@ section.contacto ul li i {
     }
     /*Cuenta Regresiva*/
     section.cuenta-regresiva p {
-        font-family: 'montserratthin', 'Montserrat', sans-serif;
+        font-family: 'EBGaramond', 'Montserrat', sans-serif;
         color: white;
         text-align: center;
         font-size: 30px;
@@ -981,20 +963,23 @@ section.contacto ul li i {
     }
     section.cuenta-regresiva {
         text-align: center;
-        font-family: 'montserratthin', 'Montserrat', sans-serif;
+        font-family: 'EBGaramond', 'Montserrat', sans-serif;
         padding-top: 25px;
-        background-color: #A8A8A8;
+        background-color: var(--color-secundario);
         height: 100px;
     }
     /* DressCode*/
     section.dresscode p {
         color: white;
         font-size: 18px;
-        font-family: 'montserratthin', 'Montserrat', sans-serif;
+    }
+    section.FiestaSola p {
+        color: var(--color-gris);
+        font-size: 18px;
     }
     section.portada2 {
         height: 100vh;
-        background-image: url("../public/img/VeroyRoro/IMGPARAIPHONE.png");
+        background-image: url("../public/img//Jaz/IMGPARAIPHONE.png");
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
         background-size: cover;
