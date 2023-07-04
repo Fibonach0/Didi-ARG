@@ -990,7 +990,7 @@ section.contacto ul li i {
     }
     /* DressCode*/
     section.dresscode p {
-        color: white;
+        color: var(--color-gris);
         font-size: 18px;
     }
     section.FiestaSola p {
