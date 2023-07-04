@@ -1,0 +1,8 @@
+body {background-color: white;}
+h1   {color: lightcoral;}
+
+@media (prefers-color-scheme: dark) {
+
+    body {background-color: rgb(107, 93, 93);}
+h1   {color: rgb(114, 143, 197);}
+}
